@@ -9,3 +9,5 @@ Consigna Escuelita de Thanos: https://docs.google.com/document/d/1IKrJkdbPyoxfHq
 Consigna Huber 2.0: https://docs.google.com/document/d/1b-dhR_yAQui07DvZCk2vvwIkcs-d9jxM7mX203nMaz8/edit#heading=h.zbkmy4dl5yl0
 
 Consigna Gravity Falls: https://docs.google.com/document/d/1ivhqJIWGanstr324ElRY6lev0b0UN-QN3kcYFH9wqMs/edit
+
+Consigna Los Ladrones Lambda: https://docs.google.com/document/d/1J6lNIF-GhMkDy0SvPZXjSMgs7Z9XX-Dh2slZLwmB5kA/edit
