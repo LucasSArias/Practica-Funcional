@@ -11,3 +11,5 @@ Consigna Huber 2.0: https://docs.google.com/document/d/1b-dhR_yAQui07DvZCk2vvwIk
 Consigna Gravity Falls: https://docs.google.com/document/d/1ivhqJIWGanstr324ElRY6lev0b0UN-QN3kcYFH9wqMs/edit
 
 Consigna Los Ladrones Lambda: https://docs.google.com/document/d/1J6lNIF-GhMkDy0SvPZXjSMgs7Z9XX-Dh2slZLwmB5kA/edit
+
+Consigna Padrinos Mágicos: https://drive.google.com/file/d/18c1VXjtvMaJeIIHE-gMtTOWycW4r62Ig/view
