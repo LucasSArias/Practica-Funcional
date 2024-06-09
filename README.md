@@ -15,3 +15,5 @@ Consigna Los Ladrones Lambda: https://docs.google.com/document/d/1J6lNIF-GhMkDy0
 Consigna Padrinos Mágicos: https://drive.google.com/file/d/18c1VXjtvMaJeIIHE-gMtTOWycW4r62Ig/view
 
 Consigna Puños de Puria: https://docs.google.com/document/d/1Dtd4n1fYLdsSBPyHnFsSvctCrwBE1zkevGwThkTDAXU/edit
+
+Consigna Simpson: https://docs.google.com/document/d/1fIdfbyhyio8K2Wx9GaEZZ5cjU8P1rY8ZzdO2p4SP4OE/edit
