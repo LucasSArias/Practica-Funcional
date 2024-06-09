@@ -13,3 +13,5 @@ Consigna Gravity Falls: https://docs.google.com/document/d/1ivhqJIWGanstr324ElRY
 Consigna Los Ladrones Lambda: https://docs.google.com/document/d/1J6lNIF-GhMkDy0SvPZXjSMgs7Z9XX-Dh2slZLwmB5kA/edit
 
 Consigna Padrinos Mágicos: https://drive.google.com/file/d/18c1VXjtvMaJeIIHE-gMtTOWycW4r62Ig/view
+
+Consigna Puños de Puria: https://docs.google.com/document/d/1Dtd4n1fYLdsSBPyHnFsSvctCrwBE1zkevGwThkTDAXU/edit
