@@ -16,4 +16,4 @@ Consigna Padrinos Mágicos: https://drive.google.com/file/d/18c1VXjtvMaJeIIHE-gM
 
 Consigna Puños de Puria: https://docs.google.com/document/d/1Dtd4n1fYLdsSBPyHnFsSvctCrwBE1zkevGwThkTDAXU/edit
 
-Consigna Simpson: https://docs.google.com/document/d/1fIdfbyhyio8K2Wx9GaEZZ5cjU8P1rY8ZzdO2p4SP4OE/edit
+Consigna Los Simpson: https://docs.google.com/document/d/1fIdfbyhyio8K2Wx9GaEZZ5cjU8P1rY8ZzdO2p4SP4OE/edit
