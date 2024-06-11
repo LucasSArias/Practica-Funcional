@@ -19,3 +19,5 @@ Consigna Puños de Puria: https://docs.google.com/document/d/1Dtd4n1fYLdsSBPyHnF
 Consigna Los Simpson: https://docs.google.com/document/d/1fIdfbyhyio8K2Wx9GaEZZ5cjU8P1rY8ZzdO2p4SP4OE/edithttps://docs.google.com/document/d/16YC_GPPnety13jm46Y6uhlpBdv9zb7m1HgwDjfMILG0/edit#heading=h.rdm4at4lk1gl
 
 Consigna P de Perritos: https://docs.google.com/document/d/19CPV3G8aLJs5AQ6QUuOxlqOLClKxi_Fy7cc3X53rFSw/edit
+
+Consigna En los parciales de la locura: https://docs.google.com/document/d/1BMki3h9yOcv5SLMNYAw5XDYaIm9QRKQthbwvS_3FXh0/edit?hl=es
