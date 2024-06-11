@@ -20,4 +20,7 @@ Consigna Los Simpson: https://docs.google.com/document/d/1fIdfbyhyio8K2Wx9GaEZZ5
 
 Consigna P de Perritos: https://docs.google.com/document/d/19CPV3G8aLJs5AQ6QUuOxlqOLClKxi_Fy7cc3X53rFSw/edit
 
+Consigna Haskell Chef: https://docs.google.com/document/d/13SS-HXVR7z5SOgQCwYh2Maob7QhSh858PTSzc7MymCY/edit
+
 Consigna En los parciales de la locura: https://docs.google.com/document/d/1BMki3h9yOcv5SLMNYAw5XDYaIm9QRKQthbwvS_3FXh0/edit?hl=es
+
