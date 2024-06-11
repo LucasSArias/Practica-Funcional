@@ -1,3 +1,4 @@
+import Text.Show.Functions
 data Investigador = Investigador {
     nombre :: String,
     cordura :: Int,
@@ -33,8 +34,8 @@ agregarItem :: Item -> Investigador -> Investigador
 agregarItem unItem unInvestigador = unInvestigador {items = unItem : items unInvestigador}
 
 -- PUNTO 2
-algunoTieneElItem :: Item -> [Investigador] -> Bool
-algunoTieneElItem unItem = any (elem unItem. items) 
+algunoTieneElItem :: String -> [Investigador] -> Bool
+algunoTieneElItem unItem = any (elem unItem. map nombreItem. items) 
 
 -- PUNTO 3
 elLider :: [Investigador] -> Investigador
@@ -68,8 +69,46 @@ data Suceso = Suceso {
     descripcion :: String,
     consecuencias :: [Consecuencia],
     formaDeEvitarlo :: Forma
-}
+} deriving (Show)
 
-type Consecuencia = [Investigador] -> [Investigador]
+type Consecuencia = [Investigador] -> [Investigador] 
 type Forma = [Investigador] -> Bool
 
+despertarDeUnAntiguo :: Suceso
+despertarDeUnAntiguo = Suceso {
+    descripcion = "Despertar de un antiguo",
+    consecuencias = [map (enloquecer 10), tail],
+    formaDeEvitarlo = algunoTieneElItem "Necronomicon"
+}
+
+ritualEnInnsmouth :: Suceso
+ritualEnInnsmouth = Suceso {
+    descripcion = "Ritual en Innsmouth",
+    consecuencias = [(:[]).hallar dagaMaldita .head, enfrentar despertarDeUnAntiguo],
+    formaDeEvitarlo = (>100).potencial.head
+}
+
+dagaMaldita :: Item
+dagaMaldita = Item {
+    nombreItem = "Daga Maldita",
+    valor = 3
+}
+-- PUNTO 6
+enfrentar :: Suceso -> [Investigador] -> [Investigador]
+enfrentar unSuceso losInvestigadores
+    | formaDeEvitarlo unSuceso (map (enloquecer 10)losInvestigadores) = map (enloquecer 10.incorporarSuceso (descripcion unSuceso)) losInvestigadores
+    | otherwise = map (enloquecer 10). sufrirConsecuencias unSuceso $ losInvestigadores 
+
+incorporarSuceso :: String -> Investigador -> Investigador
+incorporarSuceso unSuceso unInvestigador = unInvestigador {sucesosEvitados = unSuceso : sucesosEvitados unInvestigador}
+
+sufrirConsecuencias :: Suceso -> [Investigador] -> [Investigador]
+sufrirConsecuencias unSuceso losInvestigadores = foldl (\investigadores unaConsecuencia -> unaConsecuencia investigadores) losInvestigadores (consecuencias unSuceso)
+
+-- PUNTO 7
+elMasAterrador :: Int -> [Suceso] -> [Investigador] -> Suceso
+elMasAterrador _ [] _ = undefined
+elMasAterrador _ [unSoloSuceso] _ = unSoloSuceso
+elMasAterrador cantidad (x:y:xs) losInvestigadores
+    | (deltaEnCorduraTotal cantidad. enfrentar x) losInvestigadores > (deltaEnCorduraTotal cantidad. enfrentar y) losInvestigadores = elMasAterrador cantidad (x:xs) losInvestigadores
+    | otherwise = elMasAterrador cantidad (y:xs) losInvestigadores
