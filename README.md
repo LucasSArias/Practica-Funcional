@@ -24,3 +24,4 @@ Consigna Haskell Chef: https://docs.google.com/document/d/13SS-HXVR7z5SOgQCwYh2M
 
 Consigna En los parciales de la locura: https://docs.google.com/document/d/1BMki3h9yOcv5SLMNYAw5XDYaIm9QRKQthbwvS_3FXh0/edit?hl=es
 
+Consigna Budokai Tenkaichi 3: https://docs.google.com/document/d/1UiVcbm1YKGCKT3BihOkK7fIX9aJxuqp74PVpYkxd29Y/edit?usp=sharing
